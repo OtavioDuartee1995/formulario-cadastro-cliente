@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons/beleza.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div id="logo"><img src="img/logo-clinica.png" alt=""></div>
+        <div class="container">
+            <div class="title">Cadastro de clientes</div>
+            <div class="input">
+                <label>Nome:</label>
+                <input type="text" id="nome" required placeholder="Nome Completo">
+            </div>
+            <div class="input">
+                <label>Data de nascimento:</label>
+                <input type="date" id="nascimento">
+            </div>
+            <div class="input">
+                <label>Celular:</label>
+                <input type="tel" id="celular" required placeholder="(00)00000-0000">
+            </div>
+            <div class="input">
+                <label>CEP:</label>
+                <input type="number" id="cep" required placeholder="Informe o CEP">
+            </div>
+            <div class="input">
+                <label>CPF:</label>
+                <input type="number" id="cpf" required placeholder="Insira o cpf do cliente">
+            </div>
+            <button id="cadastrar">Cadastrar Cliente</button>
+        </div>
+    </main>
+</body>
+<script src="cadastro.js"></script>
+</html>
